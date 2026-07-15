@@ -1,22 +1,4 @@
 {
-<<<<<<< HEAD
-  "name": "torque-mart-waitlist",
-  "version": "0.0.0",
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "devDependencies": {
-    "vite": "^8.1.1"
-  },
-  "dependencies": {
-    "@supabase/supabase-js": "^2.110.0",
-    "@tailwindcss/vite": "^4.3.2",
-    "tailwindcss": "^4.3.2"
-=======
   "name": "torque-mart",
   "version": "0.1.0",
   "private": true,
@@ -49,6 +31,5 @@
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
->>>>>>> 2a5ca19f (Initial commit)
   }
 }
