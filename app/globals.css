@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --torque-red: #DC2626;
+    --torque-navy: #1E293B;
+  }
+}
+
+@layer utilities {
+  .text-torque-red { color: #DC2626; }
+  .bg-torque-red { background-color: #DC2626; }
+  .border-torque-red { border-color: #DC2626; }
+  .ring-torque-red { --tw-ring-color: #DC2626; }
+  
+  .text-torque-navy { color: #1E293B; }
+  .bg-torque-navy { background-color: #1E293B; }
+  .border-torque-navy { border-color: #1E293B; }
+
+  .font-heading { font-family: var(--font-inter), sans-serif; }
+  .font-body { font-family: var(--font-manrope), sans-serif; }
+}
